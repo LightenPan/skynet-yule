@@ -1,0 +1,159 @@
+package profilesvr_protos;
+
+option java_package = "com.shoushi.yld.base.protocol.pb";
+option java_outer_classname = "ProfileSvrProtos";
+
+enum CMD_DEF
+{
+	CMD_PROFILESVR = 0x204;
+}
+
+enum SUBCMD_DEF
+{
+	SUBCMD_GET_USER_INFO            = 0x01; //拉取用户信息
+	SUBCMD_GET_USER_MATCH_INFO_LIST = 0x02; //拉取已完成比赛列表
+	SUBCMD_GET_MATCH_INFO 			= 0x03; //拉取单局比赛结果
+	SUBCMD_SEND_MATCH_MANIFESTO		= 0x04; //发送战斗宣言
+	SUBCMD_QUERY_MATCH_MANIFESTO    = 0x05; //拉取战斗宣言
+
+	SUBCMD_PK_SELECT_USER_GAME_INFO = 0x06; //获取用户游戏信息
+}
+
+message UserInfo
+{
+	required bytes  user_id = 1; //用户id
+	optional bytes  nick    = 2; //昵称
+	optional uint32 level   = 3; //等级
+	optional uint32 edge    = 4; //战斗力
+
+}
+
+//0x204-0x01 拉取用户信息 请求
+message GetUserInfoReq
+{
+	required bytes user_id = 1; //用户id
+}
+
+//0x204-0x01 拉取用户信息 回包
+message GetUserInfoRsp
+{
+	required uint32 result = 1;
+	optional bytes  errmsg = 2;
+	optional UserInfo user_info = 3;
+}
+
+//////////////////////////////////////////////////////////////////////////
+message PlayerInfo
+{
+	optional bytes  user_id           = 1; //用户ID
+	optional uint32	score             = 2; //分数
+	optional bytes  video_url         = 3; //视频地址
+	optional bytes  pic_url           = 4; //图片地址
+	optional uint32 video_start_time  = 5; //视频开始时间（毫秒）
+	optional uint32 video_file_size   = 6; //视频文件大小
+	optional uint32 video_times       = 7; //视频视频时长（毫秒）
+	optional uint32 video_upload_time = 8; //视频上传时间
+}
+
+message MatchInfo
+{
+	required bytes  match_id        = 1; //赛事id
+	optional bytes  win_user_id     = 2; //赢家ID
+	optional uint32 match_time      = 3; //匹配时间
+	repeated PlayerInfo player_info = 4; //win昵称
+}
+
+//0x204-0x02 拉取已完成比赛列表 请求
+message GetUserMatchInfoListReq
+{
+	required bytes user_id 		= 1; //用户id
+	optional uint32 page_id		= 2;
+	optional uint32 per_page	= 3;
+}
+
+//0x204-0x02 拉取已完成比赛列表 回包
+message GetUserMatchInfoListRsp
+{
+	required uint32 result = 1;
+	optional bytes errmsg = 2;
+	repeated MatchInfo match_info = 3;
+}
+
+//0x204-0x03 拉取单局比赛结果 请求
+message GetMatchInfoReq
+{
+	required bytes match_id = 1; //赛事id
+}
+
+//0x204-0x03 拉取单局比赛结果 回包
+message GetMatchInfoRsp
+{
+	required uint32 result = 1;
+	optional bytes errmsg = 2;
+	optional MatchInfo match_info = 3;
+}
+
+//0x204-0x04 发送战斗宣言 请求
+message ManiContent
+{
+	required uint32 type 	  = 1; //1文字；2语音
+	optional bytes  voice_url = 2;
+	optional bytes  words	  = 3;
+}
+message SendMatchManifestoReq
+{
+	required bytes  uuid          = 1; //用户id
+	required uint32 mani_type 	  = 2; //宣言类型，1战前宣言；2战后宣言
+	required bytes  mani_content  = 3; //宣言内容
+}
+
+//0x204-0x04 发送战斗宣言 回包
+message SendMatchManifestoRsp
+{
+	required uint32 result = 1; //错误码
+	optional bytes  errmsg = 2; //错误信息
+	optional bytes  uuid   = 3; //用户id
+}
+
+//0x204-0x05 拉取战斗宣言 请求
+message QueryMatchManifestoReq
+{
+	required bytes  uuid      = 1; //用户id
+	required uint32 mani_type = 2; //宣言类型，1战前宣言；2战后宣言
+}
+
+//0x204-0x05 拉取战斗宣言 回包
+message QueryMatchManifestoRsp
+{
+	required uint32 result   = 1; //错误码
+	optional bytes  errmsg   = 2; //错误信息
+	optional bytes  uuid     = 3; //用户id
+	optional bytes  mani_content = 4; //语音url
+}
+
+message PKUserGameInfo
+{
+	required bytes user_id    = 1;
+	required bytes game_id    = 2;
+	optional bytes user_name  = 3;
+	optional bytes  nick   	  = 4; //昵称
+	optional uint32 level     = 5; //等级
+	optional uint32 btval     = 6; //连胜纪录
+	optional uint32 edge      = 7; //战斗力
+	optional bytes game_name  = 8;
+}
+
+//拉取战 请求
+message GetPKUserGameInfoReq
+{
+	required bytes  user_id      = 1; //用户id
+	required bytes  game_id      = 2; //game_id
+}
+
+//拉取
+message GetPKUserGameInfoRsp
+{
+	required uint32 result  = 1;
+	optional bytes errmsg   = 2;
+	optional PKUserGameInfo info = 3;
+}

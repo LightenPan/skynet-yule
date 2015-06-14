@@ -1,0 +1,23 @@
+root = "./"
+thread = 8
+logger = log
+logpath = "."
+harbor = 1
+address = "127.0.0.1:2526"
+master = "127.0.0.1:2013"
+start = "main"	-- main script
+bootstrap = "snlua bootstrap"	-- The service for bootstrap
+standalone = "0.0.0.0:2013"
+luaservice = root.."service/?.lua;"..root.."test/?.lua;"..root.."examples/?.lua"
+lualoader = "lualib/loader.lua"
+preload = "./examples/preload.lua"	-- run preload.lua before every lua service run
+
+-- 将添加到 package.path 中的路径，供 require 调用。
+lua_path = "lualib/?.lua;" ..
+	"./global/?.lua;" ..
+	"./lualib/?.lua;"
+
+snax = root.."examples/?.lua;"..root.."test/?.lua"
+-- snax_interface_g = "snax_g"
+cpath = root.."cservice/?.so"
+-- daemon = "./skynet.pid"

@@ -1,0 +1,34 @@
+{
+	"0x200" : {
+		"service" : "account",
+		"pbfile" : "Account.pb",
+		"0x1": {
+			"req" : "yldapp_protos.RegiestAccountReq",
+			"rsp" : "yldapp_protos.RegiestAccountRsp"
+		},
+		"0x2": {
+			"req" : "yldapp_protos.GetTokenReq",
+			"rsp" : "yldapp_protos.GetTokenRsp"
+		},
+		"0x3": {
+			"req" : "yldapp_protos.GetUserInfoReq",
+			"rsp" : "yldapp_protos.GetUserInfoRsp"
+		},
+		"0x4": {
+			"req" : "yldapp_protos.AllocSsidReq",
+			"rsp" : "yldapp_protos.AllocSsidRsp"
+		}
+	},
+	"0x204" : {
+		"service" : "profile",
+		"pbfile" : "profilesvr.pb",
+		"0x1": {
+			"req" : "profilesvr_protos.GetUserInfoReq",
+			"rsp" : "profilesvr_protos.GetUserInfoRsp"
+		},
+		"0x2": {
+			"req" : "profilesvr_protos.GetUserMatchInfoListReq",
+			"rsp" : "profilesvr_protos.GetUserMatchInfoListRsp"
+		}
+	}
+}

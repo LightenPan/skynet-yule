@@ -1,0 +1,15 @@
+//svr协议包头
+message SSHead
+{
+	optional uint32 command     = 1 ; //大命令
+	optional uint32 subcmd      = 2 ; //子命令
+	optional uint32 sequence    = 3 ; //客户端seq
+	optional bytes  uuid	    = 4 ; //用户身份id
+	optional uint32 client_ip   = 5 ; //客户端ip，不用填
+	optional uint32 client_port = 6 ; //客户端端口，不用填
+	optional uint32 objectid    = 7 ; //操作流水id，服务器用，可以不填
+	optional uint32 appid       = 8 ; //服务器appid，服务器用，可以不填
+	optional bytes  tranbuf     = 9 ; //透传buf，异步操作用，可以不填
+	optional uint32 route_key   = 10; //路由key，用来优化服务器访问，可以不填
+	optional uint32 client_type = 11; //终端类型，填0
+}

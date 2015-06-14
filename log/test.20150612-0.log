@@ -1,0 +1,71 @@
+[INFO] 2015-06-12 00:57:12 [agent] [./examples/agent.lua:60] data: 18 01 30 01 08 65 22 04 74 65 73 74 38 0d 28 0c 10 01 
+[INFO] 2015-06-12 00:57:12 [agent] [./examples/agent.lua:81] head{command: 101, subcmd: 1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 00:58:17 [agent] [./examples/agent.lua:60] data: 18 02 30 01 08 65 22 04 74 65 73 74 38 0d 28 0c 10 01 
+[INFO] 2015-06-12 00:58:17 [agent] [./examples/agent.lua:81] head{command: 101, subcmd: 1, seq: 2, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:00:57 [agent] [./examples/agent.lua:60] data: 30 01 28 0c 10 01 38 0d 18 01 08 65 22 04 74 65 73 74 
+[INFO] 2015-06-12 01:00:57 [agent] [./examples/agent.lua:81] head{command: 101, subcmd: 1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:01:21 [agent] [./examples/agent.lua:60] data: 30 01 28 0c 10 01 38 0d 18 02 08 65 22 04 74 65 73 74 
+[INFO] 2015-06-12 01:01:21 [agent] [./examples/agent.lua:81] head{command: 101, subcmd: 1, seq: 2, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:02:00 [agent] [./examples/agent.lua:60] data: 30 01 18 01 38 0d 10 01 08 65 28 0c 22 04 74 65 73 74 
+[INFO] 2015-06-12 01:02:00 [agent] [./examples/agent.lua:81] head{command: 101, subcmd: 1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:04:01 [agent] [./examples/agent.lua:60] data: 08 65 22 04 74 65 73 74 18 01 38 0d 30 01 28 0c 10 01 
+[INFO] 2015-06-12 01:04:01 [agent] [./examples/agent.lua:81] head{command: 101, subcmd: 1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:04:01 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 01:04:01 [agent] [./examples/agent.lua:92] module profile
+[ERROR] 2015-06-12 01:04:01 [agent] [./examples/agent.lua:95] unknown module profile
+[INFO] 2015-06-12 01:11:10 [agent] [./examples/agent.lua:60] data: 38 0d 18 01 10 01 28 0c 22 04 74 65 73 74 08 65 30 01 
+[INFO] 2015-06-12 01:11:10 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: 1011, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:11:10 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 01:11:10 [agent] [./examples/agent.lua:93] module profile
+[ERROR] 2015-06-12 01:11:10 [agent] [./examples/agent.lua:96] unknown module profile
+[INFO] 2015-06-12 01:11:59 [agent] [./examples/agent.lua:60] data: 22 04 74 65 73 74 30 01 18 01 08 65 28 0c 38 0d 10 01 
+[INFO] 2015-06-12 01:11:59 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:11:59 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 01:11:59 [agent] [./examples/agent.lua:93] module profile
+[ERROR] 2015-06-12 01:11:59 [agent] [./examples/agent.lua:96] unknown module profile
+[INFO] 2015-06-12 01:13:11 [agent] [./examples/agent.lua:60] data: 18 01 30 01 22 04 74 65 73 74 28 0c 38 0d 08 65 10 01 
+[INFO] 2015-06-12 01:13:11 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:13:11 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 01:13:11 [agent] [./examples/agent.lua:93] module profile
+[ERROR] 2015-06-12 01:13:11 [agent] [./examples/agent.lua:96] unknown module profile
+[INFO] 2015-06-12 01:13:59 [agent] [./examples/agent.lua:60] data: 22 04 74 65 73 74 18 01 28 0c 08 65 38 0d 30 01 10 01 
+[INFO] 2015-06-12 01:13:59 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:13:59 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 01:13:59 [agent] [./examples/agent.lua:93] module profile
+[ERROR] 2015-06-12 01:13:59 [agent] [./examples/agent.lua:96] unknown module profile
+[INFO] 2015-06-12 01:24:32 [agent] [./examples/agent.lua:60] data: 22 04 74 65 73 74 08 65 18 01 30 01 38 0d 28 0c 10 01 
+[INFO] 2015-06-12 01:24:32 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:24:32 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 01:24:32 [agent] [./examples/agent.lua:93] module profile
+[INFO] 2015-06-12 01:32:03 [agent] [./examples/agent.lua:60] data: 18 01 08 65 28 0c 38 0d 30 01 22 04 74 65 73 74 10 01 
+[INFO] 2015-06-12 01:32:03 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 01:32:03 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 01:32:03 [agent] [./examples/agent.lua:93] module profile
+[INFO] 2015-06-12 23:40:46 [agent] [./examples/agent.lua:60] data: 08 65 10 01 38 0d 30 01 28 0c 22 04 74 65 73 74 18 01 
+[INFO] 2015-06-12 23:40:46 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 23:40:46 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 23:40:46 [agent] [./examples/agent.lua:92] module profile
+[INFO] 2015-06-12 23:43:22 [agent] [./examples/agent.lua:60] data: 08 65 22 04 74 65 73 74 38 0d 30 01 28 0c 18 01 10 01 
+[INFO] 2015-06-12 23:43:22 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 23:43:22 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 23:43:22 [agent] [./examples/agent.lua:92] module profile
+[INFO] 2015-06-12 23:49:19 [agent] [./examples/agent.lua:60] data: 10 01 08 65 22 04 74 65 73 74 18 01 30 01 38 0d 28 0c 
+[INFO] 2015-06-12 23:49:19 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 23:49:19 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 23:49:19 [agent] [./examples/agent.lua:92] module profile
+[INFO] 2015-06-12 23:50:59 [agent] [./examples/agent.lua:60] data: 10 01 08 65 22 04 74 65 73 74 18 02 30 01 38 0d 28 0c 
+[INFO] 2015-06-12 23:50:59 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: 101_1, seq: 2, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 23:50:59 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 23:50:59 [agent] [./examples/agent.lua:92] module profile
+[INFO] 2015-06-12 23:51:22 [agent] [./examples/agent.lua:60] data: 08 65 38 0d 28 0c 22 04 74 65 73 74 30 01 18 01 10 01 
+[INFO] 2015-06-12 23:51:22 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 23:51:22 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 23:51:22 [agent] [./examples/agent.lua:92] module profile
+[INFO] 2015-06-12 23:55:27 [agent] [./examples/agent.lua:60] data: 08 65 30 01 38 0d 28 0c 22 04 74 65 73 74 18 01 10 01 
+[INFO] 2015-06-12 23:55:27 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 23:55:27 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 23:55:27 [agent] [./examples/agent.lua:92] module profile
+[INFO] 2015-06-12 23:57:21 [agent] [./examples/agent.lua:60] data: 28 0c 30 01 08 65 10 01 38 0d 18 01 22 04 74 65 73 74 
+[INFO] 2015-06-12 23:57:21 [agent] [./examples/agent.lua:82] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-12 23:57:21 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-12 23:57:21 [agent] [./examples/agent.lua:92] module profile

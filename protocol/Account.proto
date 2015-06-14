@@ -1,0 +1,109 @@
+package yldapp_protos;
+
+option java_package = "com.shoushi.net.protocol.pb";
+option java_outer_classname = "AccountProtos";
+
+enum ACCOUNT_CMD
+{
+	CMD_ACCOUNT = 0x200;
+}
+
+enum ACCOUNT_SUBCMD
+{
+	SUBCMD_REGIEST_ACCOUNT = 0x01; //注册帐号
+	SUBCMD_GET_TOKEN       = 0x02; //获取Token
+	SUBCMD_RESET_PASSWARD  = 0x03; //重置密码
+	SUBCMD_ALLOC_SSID      = 0x04; //分配手势id
+}
+
+enum AccountType
+{
+	AccountType_SSID     = 1; //手势id
+	AccountType_SsName   = 2; //手势名
+	AccountType_QQ       = 3; //QQ
+	AccountType_WeXin    = 4; //微信
+	AccountType_WeiBo    = 5; //微博
+	AccountType_PhoneNum = 6; //手机号
+}
+
+//注册帐号 SUBCMD= 0x01
+message RegiestAccountReq
+{
+	required uint32 account_type = 1; //帐号类型
+	required bytes  account_name = 2; //账号名
+	optional bytes  passwd_md5   = 3; //密码2次MD5
+}
+
+message RegiestAccountRsp
+{
+	required uint32 result = 1; //0：成功 1：失败 2：用户已经存在
+	optional bytes  errmsg = 2; //
+	optional bytes  uuid   = 3; //手势id
+	optional uint32 flag   = 4; //1表示新注册；2表示以前注册过，直接返回
+}
+
+//获取Token SUBCMD= 0x02
+message AuthData
+{
+	required uint32 account_type = 1;
+	required bytes  account_name = 2;
+    required uint32 timestamp    = 3; //时间戳,精确到秒
+	required bytes  md5_pwd      = 4; //密码一次MD5
+}
+
+message GetTokenReq
+{
+	required uint32 account_type = 1;
+	required bytes  account_name = 2;
+	required bytes  auth_data    = 3; //auth_data = md5(md5(pwd))< AuthData >
+	optional uint32 is_tourist   = 4; //是否为游客
+}
+
+message GetTokenRsp
+{
+	required uint32 result   = 1; //1：失败，2：用户不存在，3:密码错误
+	optional bytes  uuid     = 2; //账号ID
+	optional bytes  errmsg   = 3;
+	optional bytes  auth_key = 4; //auth_key = md5(md5(pwd))< gtkey >
+	optional bytes  token    = 5;
+}
+
+//重置密码 SUBCMD= 0x03
+message ResetPasswordReq
+{
+	required bytes  account_type = 1;
+	required bytes  account_name = 2;
+	required bytes  pwd_md5      = 3; //新密码
+	optional bytes  auth_data    = 4; //auth_data = md5(md5(pwd))< AuthData >
+	optional uint32 sms_code     = 5; //短信验证码
+}
+
+message ResetPasswordRsp
+{
+	required uint32 result = 1;
+	optional bytes  errmsg = 2;
+}
+
+enum MachineType
+{
+	MachineType_Android = 1; //安卓手机
+	MachineType_iOS     = 2; //苹果手机
+	MachineType_Web     = 3; //页面
+	MachineType_Windows = 4; //PC端
+}
+
+//0x200-0x04 分配手势id 请求
+message AllocSsidReq
+{
+	optional uint32 clientip     = 1; //客户端ip
+	optional uint32 machine_type = 2; //机器类型，见MachineType定义
+	optional bytes  machine_code = 3; //机器码
+}
+
+//0x200-0x04 分配手势id 回包
+message AllocSsidRsp
+{
+	required uint32 result = 1;
+	optional bytes  errmsg = 2;
+	optional uint64 ssid   = 3;
+}

@@ -1,0 +1,588 @@
+[INFO] 2015-06-13 00:02:12 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 22 04 74 65 73 74 38 0d 18 01 30 01 08 65 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 00:02:12 [agent] [./examples/agent.lua:82] head{command: 24, subcmd: 1, method: 24_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 00:02:12 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 24, pbsubcmd: 1
+[INFO] 2015-06-13 00:02:12 [agent] [./examples/agent.lua:92] module nil
+[ERROR] 2015-06-13 00:02:12 [agent] [./examples/agent.lua:95] unknown module nil
+[INFO] 2015-06-13 00:21:21 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 08 65 38 0d 30 01 18 01 22 04 74 65 73 74 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 00:21:39 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 08 65 38 0d 30 01 18 02 22 04 74 65 73 74 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:01:15 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 38 0d 08 65 30 01 22 04 74 65 73 74 18 01 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:01:57 [agent] [./examples/agent.lua:60] data: 00 12 10 01 08 65 38 0d 30 01 28 0c 22 04 74 65 73 74 18 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:01:57 [agent] [./examples/agent.lua:62] data: 00 12 10 01 08 65 38 0d 30 01 28 0c 22 04 74 65 73 74 18 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:02:45 [agent] [./examples/agent.lua:60] data: 00 12 08 65 10 01 38 0d 28 0c 22 04 74 65 73 74 30 01 18 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:03:00 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 38 0d 08 65 18 01 30 01 10 01 22 04 74 65 73 74 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:05:59 [agent] [./examples/agent.lua:60] data: 00 12 10 01 28 0c 08 65 18 01 22 04 74 65 73 74 38 0d 30 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:11:05 [agent] [./examples/agent.lua:60] data: 00 12 08 65 18 01 28 0c 22 04 74 65 73 74 38 0d 30 01 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:12:30 [agent] [./examples/agent.lua:60] data: 00 12 18 01 30 01 38 0d 28 0c 22 04 74 65 73 74 08 65 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:12:30 [agent] [./examples/agent.lua:62] msglen: 
+[INFO] 2015-06-13 09:13:17 [agent] [./examples/agent.lua:60] data: 00 12 08 65 22 04 74 65 73 74 18 01 38 0d 10 01 28 0c 30 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:13:17 [agent] [./examples/agent.lua:62] 0
+[INFO] 2015-06-13 09:20:05 [agent] [./examples/agent.lua:60] data: 00 12 18 01 08 65 30 01 28 0c 22 04 74 65 73 74 38 0d 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:20:05 [agent] [./examples/agent.lua:62] msglen: 18
+[INFO] 2015-06-13 09:20:30 [agent] [./examples/agent.lua:60] data: 00 12 38 0d 08 65 28 0c 18 01 30 01 10 01 22 04 74 65 73 74 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:20:30 [agent] [./examples/agent.lua:62] msglen: 18
+[INFO] 2015-06-13 09:20:42 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 08 65 38 0d 10 01 18 01 22 04 74 65 73 74 30 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:20:42 [agent] [./examples/agent.lua:62] msglen: 18
+[INFO] 2015-06-13 09:23:13 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 38 0d 10 01 08 65 30 01 22 04 74 65 73 74 18 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:23:13 [agent] [./examples/agent.lua:62] msglen: 18
+[INFO] 2015-06-13 09:23:13 [agent] [./examples/agent.lua:64] csheadlen: 10252
+[INFO] 2015-06-13 09:24:12 [agent] [./examples/agent.lua:60] data: 00 12 30 01 38 0d 08 65 28 0c 22 04 74 65 73 74 10 01 18 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:24:12 [agent] [./examples/agent.lua:62] msglen: 18
+[INFO] 2015-06-13 09:24:12 [agent] [./examples/agent.lua:64] csheadlen: 12289
+[INFO] 2015-06-13 09:25:23 [agent] [./examples/agent.lua:60] data: 00 12 08 65 18 01 10 01 38 0d 28 0c 22 04 74 65 73 74 30 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:25:23 [agent] [./examples/agent.lua:62] msglen: 18
+[INFO] 2015-06-13 09:25:23 [agent] [./examples/agent.lua:64] csheadlen: 2149
+[INFO] 2015-06-13 09:27:27 [agent] [./examples/agent.lua:60] data: 00 12 08 65 30 01 10 01 38 0d 18 01 28 0c 22 04 74 65 73 74 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:27:27 [agent] [./examples/agent.lua:62] msglen: 18
+[INFO] 2015-06-13 09:27:27 [agent] [./examples/agent.lua:64] csheadlen: 4616
+[INFO] 2015-06-13 09:30:57 [agent] [./examples/agent.lua:60] data: 00 12 22 04 74 65 73 74 30 01 38 0d 10 01 28 0c 18 01 08 65 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:30:57 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:31:51 [agent] [./examples/agent.lua:60] data: 00 12 38 0d 28 0c 18 01 08 65 30 01 22 04 74 65 73 74 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:31:51 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:32:44 [agent] [./examples/agent.lua:60] data: 00 12 18 01 22 04 74 65 73 74 30 01 08 65 38 0d 10 01 28 0c 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:32:44 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:32:44 [agent] [./examples/agent.lua:64] cshead: 18 01 22 04 74 65 73 74 30 01 08 65 38 0d 10 01 28 0c 
+[INFO] 2015-06-13 09:32:44 [agent] [./examples/agent.lua:67] csbodylen: 6
+[INFO] 2015-06-13 09:33:25 [agent] [./examples/agent.lua:60] data: 00 12 22 04 74 65 73 74 38 0d 30 01 18 01 08 65 28 0c 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:33:25 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:33:25 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 38 0d 30 01 18 01 08 65 28 0c 10 01 
+[INFO] 2015-06-13 09:33:25 [agent] [./examples/agent.lua:67] csbodylen: 6
+[INFO] 2015-06-13 09:34:05 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 38 0d 18 01 08 65 22 04 74 65 73 74 30 01 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:34:05 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:34:05 [agent] [./examples/agent.lua:64] cshead: 28 0c 38 0d 18 01 08 65 22 04 74 65 73 74 30 01 10 01 
+[INFO] 2015-06-13 09:34:05 [agent] [./examples/agent.lua:67] csbodylen: 6
+[INFO] 2015-06-13 09:34:05 [agent] [./examples/agent.lua:69] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:41:08 [agent] [./examples/agent.lua:60] data: 00 12 38 0d 30 01 22 04 74 65 73 74 08 65 10 01 28 0c 18 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:41:08 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:41:08 [agent] [./examples/agent.lua:64] cshead: 38 0d 30 01 22 04 74 65 73 74 08 65 10 01 28 0c 18 01 
+[INFO] 2015-06-13 09:41:08 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:41:08 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:41:42 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 10 01 30 01 22 04 74 65 73 74 38 0d 18 01 08 65 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:41:42 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:41:42 [agent] [./examples/agent.lua:64] cshead: 28 0c 10 01 30 01 22 04 74 65 73 74 38 0d 18 01 08 65 
+[INFO] 2015-06-13 09:41:42 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:41:42 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:41:42 [agent] [./examples/agent.lua:96] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 09:41:42 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 09:41:42 [agent] [./examples/agent.lua:106] module profile
+[INFO] 2015-06-13 09:43:29 [agent] [./examples/agent.lua:60] data: 00 12 22 04 74 65 73 74 28 0c 10 01 08 65 18 01 38 0d 30 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:43:29 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:43:29 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 28 0c 10 01 08 65 18 01 38 0d 30 01 
+[INFO] 2015-06-13 09:43:29 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:43:29 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:43:29 [agent] [./examples/agent.lua:96] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 09:43:29 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 09:43:29 [agent] [./examples/agent.lua:106] module profile
+[INFO] 2015-06-13 09:44:47 [agent] [./examples/agent.lua:60] data: 00 12 18 01 38 0d 22 04 74 65 73 74 30 01 08 65 28 0c 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:44:47 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:44:47 [agent] [./examples/agent.lua:64] cshead: 18 01 38 0d 22 04 74 65 73 74 30 01 08 65 28 0c 10 01 
+[INFO] 2015-06-13 09:44:47 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:44:47 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:44:47 [agent] [./examples/agent.lua:96] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 09:44:47 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 09:44:47 [agent] [./examples/agent.lua:106] module profile
+[INFO] 2015-06-13 09:46:11 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 18 01 08 65 38 0d 30 01 22 04 74 65 73 74 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:46:11 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:46:11 [agent] [./examples/agent.lua:64] cshead: 28 0c 18 01 08 65 38 0d 30 01 22 04 74 65 73 74 10 01 
+[INFO] 2015-06-13 09:46:11 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:46:11 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:47:30 [agent] [./examples/agent.lua:60] data: 00 12 10 01 08 65 18 01 38 0d 28 0c 22 04 74 65 73 74 30 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:47:30 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:47:30 [agent] [./examples/agent.lua:64] cshead: 10 01 08 65 18 01 38 0d 28 0c 22 04 74 65 73 74 30 01 
+[INFO] 2015-06-13 09:47:30 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:47:30 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:47:30 [agent] [./examples/agent.lua:94] dump bytebody: 
+[INFO] 2015-06-13 09:47:30 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: 101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 09:47:30 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 09:47:30 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 09:47:30 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 09:48:51 [agent] [./examples/agent.lua:60] data: 00 12 22 04 74 65 73 74 08 65 28 0c 30 01 38 0d 18 01 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:48:51 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:48:51 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 08 65 28 0c 30 01 38 0d 18 01 10 01 
+[INFO] 2015-06-13 09:48:51 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:48:51 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:48:51 [agent] [./examples/agent.lua:94] dump bytebody: 
+[INFO] 2015-06-13 09:48:51 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 09:48:51 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 09:48:51 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 09:48:51 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 09:50:16 [agent] [./examples/agent.lua:60] data: 00 12 18 01 30 01 10 01 28 0c 38 0d 22 04 74 65 73 74 08 65 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:50:16 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:50:16 [agent] [./examples/agent.lua:64] cshead: 18 01 30 01 10 01 28 0c 38 0d 22 04 74 65 73 74 08 65 
+[INFO] 2015-06-13 09:50:16 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:50:16 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:50:16 [agent] [./examples/agent.lua:94] dump bytebody: 
+[INFO] 2015-06-13 09:50:16 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 09:50:16 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 09:50:16 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 09:50:16 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 09:55:43 [agent] [./examples/agent.lua:60] data: 00 12 18 01 28 0c 38 0d 08 65 22 04 74 65 73 74 30 01 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:55:43 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:55:43 [agent] [./examples/agent.lua:64] cshead: 18 01 28 0c 38 0d 08 65 22 04 74 65 73 74 30 01 10 01 
+[INFO] 2015-06-13 09:55:43 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:55:43 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:55:43 [agent] [./examples/agent.lua:94] dump bytebody: 
+[INFO] 2015-06-13 09:55:43 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 09:55:43 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 09:55:43 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 09:55:43 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 09:57:16 [agent] [./examples/agent.lua:60] data: 00 12 18 01 10 01 08 65 38 0d 30 01 22 04 74 65 73 74 28 0c 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:57:16 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:57:16 [agent] [./examples/agent.lua:64] cshead: 18 01 10 01 08 65 38 0d 30 01 22 04 74 65 73 74 28 0c 
+[INFO] 2015-06-13 09:57:16 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:57:16 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:57:16 [agent] [./examples/agent.lua:128] bytehead: 18 01 10 01 08 65 38 0d 30 01 22 04 74 65 73 74 28 0c , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:57:16 [agent] [./examples/agent.lua:94] dump bytebody: 
+[INFO] 2015-06-13 09:57:16 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 09:57:16 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 09:57:16 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 09:57:16 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 09:58:28 [agent] [./examples/agent.lua:60] data: 00 12 30 01 38 0d 28 0c 18 01 08 65 10 01 22 04 74 65 73 74 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:58:28 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:58:28 [agent] [./examples/agent.lua:64] cshead: 30 01 38 0d 28 0c 18 01 08 65 10 01 22 04 74 65 73 74 
+[INFO] 2015-06-13 09:58:28 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:58:28 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:58:28 [agent] [./examples/agent.lua:128] bytehead: 30 01 38 0d 28 0c 18 01 08 65 10 01 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:58:28 [agent] [./examples/agent.lua:132] bytehead: 30 01 38 0d 28 0c 18 01 08 65 10 01 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:58:28 [agent] [./examples/agent.lua:94] dump bytebody: 
+[INFO] 2015-06-13 09:58:28 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 09:58:28 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 09:58:28 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 09:58:28 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 09:59:28 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 18 01 10 01 30 01 08 65 38 0d 22 04 74 65 73 74 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:59:28 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 09:59:28 [agent] [./examples/agent.lua:64] cshead: 28 0c 18 01 10 01 30 01 08 65 38 0d 22 04 74 65 73 74 
+[INFO] 2015-06-13 09:59:28 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 09:59:28 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:59:28 [agent] [./examples/agent.lua:128] bytehead: 28 0c 18 01 10 01 30 01 08 65 38 0d 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:59:28 [agent] [./examples/agent.lua:132] bytehead: 28 0c 18 01 10 01 30 01 08 65 38 0d 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:59:28 [agent] [./examples/agent.lua:94] bytehead: 28 0c 18 01 10 01 30 01 08 65 38 0d 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 09:59:28 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 09:59:28 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 09:59:28 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 09:59:28 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 10:01:21 [agent] [./examples/agent.lua:60] data: 00 12 18 01 30 01 38 0d 08 65 28 0c 10 01 22 04 74 65 73 74 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:01:21 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:01:21 [agent] [./examples/agent.lua:64] cshead: 18 01 30 01 38 0d 08 65 28 0c 10 01 22 04 74 65 73 74 
+[INFO] 2015-06-13 10:01:21 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:01:21 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:01:21 [agent] [./examples/agent.lua:128] bytehead: 18 01 30 01 38 0d 08 65 28 0c 10 01 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:01:21 [agent] [./examples/agent.lua:132] bytehead: 18 01 30 01 38 0d 08 65 28 0c 10 01 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:01:21 [agent] [./examples/agent.lua:94] bytehead: 18 01 30 01 38 0d 08 65 28 0c 10 01 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:01:21 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:01:21 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:01:21 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:01:21 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 10:06:59 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 38 0d 08 65 22 04 74 65 73 74 18 01 30 01 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:06:59 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:06:59 [agent] [./examples/agent.lua:64] cshead: 28 0c 38 0d 08 65 22 04 74 65 73 74 18 01 30 01 10 01 
+[INFO] 2015-06-13 10:06:59 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:06:59 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:06:59 [agent] [./examples/agent.lua:128] bytehead: 28 0c 38 0d 08 65 22 04 74 65 73 74 18 01 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:06:59 [agent] [./examples/agent.lua:132] bytehead: 28 0c 38 0d 08 65 22 04 74 65 73 74 18 01 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:06:59 [agent] [./examples/agent.lua:94] bytehead: 28 0c 38 0d 08 65 22 04 74 65 73 74 18 01 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:06:59 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:06:59 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:06:59 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:06:59 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 10:09:53 [agent] [./examples/agent.lua:60] data: 00 12 18 01 22 04 74 65 73 74 08 65 28 0c 10 01 30 01 38 0d 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:09:53 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:09:53 [agent] [./examples/agent.lua:64] cshead: 18 01 22 04 74 65 73 74 08 65 28 0c 10 01 30 01 38 0d 
+[INFO] 2015-06-13 10:09:53 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:09:53 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:09:53 [agent] [./examples/agent.lua:128] bytehead: 18 01 22 04 74 65 73 74 08 65 28 0c 10 01 30 01 38 0d , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:09:53 [agent] [./examples/agent.lua:132] bytehead: 18 01 22 04 74 65 73 74 08 65 28 0c 10 01 30 01 38 0d , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:09:53 [agent] [./examples/agent.lua:94] bytehead: 18 01 22 04 74 65 73 74 08 65 28 0c 10 01 30 01 38 0d , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:09:53 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:09:53 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:09:53 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:09:53 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 10:10:27 [agent] [./examples/agent.lua:60] data: 00 12 28 0c 08 65 38 0d 30 01 10 01 18 01 22 04 74 65 73 74 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:27 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:10:27 [agent] [./examples/agent.lua:64] cshead: 28 0c 08 65 38 0d 30 01 10 01 18 01 22 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:27 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:10:27 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:27 [agent] [./examples/agent.lua:128] bytehead: 28 0c 08 65 38 0d 30 01 10 01 18 01 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:27 [agent] [./examples/agent.lua:132] bytehead: 28 0c 08 65 38 0d 30 01 10 01 18 01 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:27 [agent] [./examples/agent.lua:94] bytehead: 28 0c 08 65 38 0d 30 01 10 01 18 01 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:27 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:10:27 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:10:27 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:10:27 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:60] data: 00 12 38 0d 18 01 30 01 22 04 74 65 73 74 28 0c 10 01 08 65 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:64] cshead: 38 0d 18 01 30 01 22 04 74 65 73 74 28 0c 10 01 08 65 
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:129] bytehead: 38 0d 18 01 30 01 22 04 74 65 73 74 28 0c 10 01 08 65 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:133] bytehead: 38 0d 18 01 30 01 22 04 74 65 73 74 28 0c 10 01 08 65 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:94] bytehead: 38 0d 18 01 30 01 22 04 74 65 73 74 28 0c 10 01 08 65 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:10:51 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:10:51 [agent] [./examples/agent.lua:112] bytehead: 38 0d 18 01 30 01 22 04 74 65 73 74 28 0c 10 01 08 65 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:10:51 [profile] [./examples/profile.lua:21] dump data: 
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:60] data: 00 12 18 01 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:64] cshead: 18 01 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:129] bytehead: 18 01 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:133] bytehead: 18 01 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:94] bytehead: 18 01 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:11:28 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:11:28 [agent] [./examples/agent.lua:112] bytehead: 18 01 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:28 [profile] [./examples/profile.lua:21] dump data: 
+test
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:60] data: 00 12 18 02 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:64] cshead: 18 02 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:129] bytehead: 18 02 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:133] bytehead: 18 02 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:94] bytehead: 18 02 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 2, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:11:52 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:11:52 [agent] [./examples/agent.lua:112] bytehead: 18 02 22 04 74 65 73 74 28 0c 38 0d 08 65 30 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:11:52 [profile] [./examples/profile.lua:21] dump data: 
+test
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:60] data: 00 12 22 04 74 65 73 74 08 65 38 0d 30 01 10 01 28 0c 18 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 08 65 38 0d 30 01 10 01 28 0c 18 01 
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:129] bytehead: 22 04 74 65 73 74 08 65 38 0d 30 01 10 01 28 0c 18 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:133] bytehead: 22 04 74 65 73 74 08 65 38 0d 30 01 10 01 28 0c 18 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:94] bytehead: 22 04 74 65 73 74 08 65 38 0d 30 01 10 01 28 0c 18 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:12:16 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:12:16 [agent] [./examples/agent.lua:112] bytehead: 22 04 74 65 73 74 08 65 38 0d 30 01 10 01 28 0c 18 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:12:16 [profile] [./examples/profile.lua:21] dump data: 
+test
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:60] data: 00 12 30 01 10 01 18 01 08 65 38 0d 28 0c 22 04 74 65 73 74 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:64] cshead: 30 01 10 01 18 01 08 65 38 0d 28 0c 22 04 74 65 73 74 
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:129] bytehead: 30 01 10 01 18 01 08 65 38 0d 28 0c 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:133] bytehead: 30 01 10 01 18 01 08 65 38 0d 28 0c 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:94] bytehead: 30 01 10 01 18 01 08 65 38 0d 28 0c 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:15:19 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:15:19 [agent] [./examples/agent.lua:112] bytehead: 30 01 10 01 18 01 08 65 38 0d 28 0c 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:15:19 [profile] [./examples/profile.lua:21] dump data: 
+test
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:60] data: 00 12 10 01 38 0d 22 04 74 65 73 74 18 01 30 01 08 65 28 0c 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:64] cshead: 10 01 38 0d 22 04 74 65 73 74 18 01 30 01 08 65 28 0c 
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:129] bytehead: 10 01 38 0d 22 04 74 65 73 74 18 01 30 01 08 65 28 0c , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:133] bytehead: 10 01 38 0d 22 04 74 65 73 74 18 01 30 01 08 65 28 0c , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:94] bytehead: 10 01 38 0d 22 04 74 65 73 74 18 01 30 01 08 65 28 0c , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:16:04 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:16:04 [agent] [./examples/agent.lua:112] bytehead: 10 01 38 0d 22 04 74 65 73 74 18 01 30 01 08 65 28 0c , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:16:04 [profile] [./examples/profile.lua:21] dump data: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:60] data: 00 12 08 65 18 01 28 0c 22 04 74 65 73 74 38 0d 10 01 30 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:64] cshead: 08 65 18 01 28 0c 22 04 74 65 73 74 38 0d 10 01 30 01 
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:129] bytehead: 08 65 18 01 28 0c 22 04 74 65 73 74 38 0d 10 01 30 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:133] bytehead: 08 65 18 01 28 0c 22 04 74 65 73 74 38 0d 10 01 30 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:94] bytehead: 08 65 18 01 28 0c 22 04 74 65 73 74 38 0d 10 01 30 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:17:53 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:17:53 [agent] [./examples/agent.lua:112] bytehead: 08 65 18 01 28 0c 22 04 74 65 73 74 38 0d 10 01 30 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:17:53 [profile] [./examples/profile.lua:21] dump data: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:60] data: 00 12 38 0d 22 04 74 65 73 74 30 01 28 0c 08 65 18 01 10 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:64] cshead: 38 0d 22 04 74 65 73 74 30 01 28 0c 08 65 18 01 10 01 
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:129] bytehead: 38 0d 22 04 74 65 73 74 30 01 28 0c 08 65 18 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:133] bytehead: 38 0d 22 04 74 65 73 74 30 01 28 0c 08 65 18 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:94] bytehead: 38 0d 22 04 74 65 73 74 30 01 28 0c 08 65 18 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:97] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:18:44 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:107] module profile
+[INFO] 2015-06-13 10:18:44 [agent] [./examples/agent.lua:112] bytehead: 38 0d 22 04 74 65 73 74 30 01 28 0c 08 65 18 01 10 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:18:44 [profile] [./examples/profile.lua:21] dump data: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:60] data: 00 12 10 01 22 04 74 65 73 74 38 0d 18 01 30 01 08 65 28 0c 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:64] cshead: 10 01 22 04 74 65 73 74 38 0d 18 01 30 01 08 65 28 0c 
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:121] bytehead: 10 01 22 04 74 65 73 74 38 0d 18 01 30 01 08 65 28 0c , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:125] bytehead: 10 01 22 04 74 65 73 74 38 0d 18 01 30 01 08 65 28 0c , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:85] bytehead: 10 01 22 04 74 65 73 74 38 0d 18 01 30 01 08 65 28 0c , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:88] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:22:12 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:98] module profile
+[INFO] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:103] bytehead: 10 01 22 04 74 65 73 74 38 0d 18 01 30 01 08 65 28 0c , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:22:12 [profile] [./examples/profile.lua:21] dump data: 0a 04 74 65 73 74 
+[DEBUG] 2015-06-13 10:22:12 [agent] [./examples/agent.lua:112] process nil time used 0.000000 ms
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:60] data: 00 12 22 04 74 65 73 74 08 65 18 01 28 0c 10 01 38 0d 30 01 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 08 65 18 01 28 0c 10 01 38 0d 30 01 
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:121] bytehead: 22 04 74 65 73 74 08 65 18 01 28 0c 10 01 38 0d 30 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:125] bytehead: 22 04 74 65 73 74 08 65 18 01 28 0c 10 01 38 0d 30 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:85] bytehead: 22 04 74 65 73 74 08 65 18 01 28 0c 10 01 38 0d 30 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:88] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:23:33 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:98] module profile
+[INFO] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:103] bytehead: 22 04 74 65 73 74 08 65 18 01 28 0c 10 01 38 0d 30 01 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:23:33 [profile] [./examples/profile.lua:21] dump data: 0a 04 74 65 73 74 
+[DEBUG] 2015-06-13 10:23:33 [agent] [./examples/agent.lua:112] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:28:54 [agent] [./examples/agent.lua:60] data: 00 12 08 65 38 0d 30 01 18 01 10 01 28 0c 22 04 74 65 73 74 00 06 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:28:54 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 10:28:54 [agent] [./examples/agent.lua:64] cshead: 08 65 38 0d 30 01 18 01 10 01 28 0c 22 04 74 65 73 74 
+[INFO] 2015-06-13 10:28:54 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 10:28:54 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:28:54 [agent] [./examples/agent.lua:89] bytehead: 08 65 38 0d 30 01 18 01 10 01 28 0c 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:28:54 [agent] [./examples/agent.lua:92] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:28:54 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:28:54 [agent] [./examples/agent.lua:102] module profile
+[INFO] 2015-06-13 10:28:54 [agent] [./examples/agent.lua:107] bytehead: 08 65 38 0d 30 01 18 01 10 01 28 0c 22 04 74 65 73 74 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 10:28:54 [profile] [./examples/profile.lua:21] dump data: 0a 04 74 65 73 74 
+[DEBUG] 2015-06-13 10:28:54 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:29:36 [agent] [./examples/agent.lua:92] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:29:36 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:29:36 [agent] [./examples/agent.lua:102] module profile
+[INFO] 2015-06-13 10:29:36 [profile] [./examples/profile.lua:21] dump data: 0a 04 74 65 73 74 
+[DEBUG] 2015-06-13 10:29:36 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:31:03 [agent] [./examples/agent.lua:92] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:31:03 [cmdroute] [./examples/cmdroute.lua:11] cmdroute query. pbcmd: 101, pbsubcmd: 1
+[INFO] 2015-06-13 10:31:03 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[INFO] 2015-06-13 10:31:03 [profile] [./examples/profile.lua:21] dump data: 0a 04 74 65 73 74 
+[DEBUG] 2015-06-13 10:31:03 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:31:44 [agent] [./examples/agent.lua:92] head{command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: }
+[INFO] 2015-06-13 10:31:44 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 10:31:44 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:32:33 [agent] [./examples/agent.lua:92] command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: 
+[INFO] 2015-06-13 10:32:33 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 10:32:33 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:45:11 [agent] [./examples/agent.lua:92] command: 101, subcmd: 1, method: s101_1, seq: 2, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: 
+[INFO] 2015-06-13 10:45:11 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 10:45:11 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:46:31 [agent] [./examples/agent.lua:92] command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: 
+[INFO] 2015-06-13 10:46:31 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 10:46:31 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:49:16 [agent] [./examples/agent.lua:92] command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: 
+[INFO] 2015-06-13 10:49:16 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 10:49:16 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:54:21 [agent] [./examples/agent.lua:92] command: 101, subcmd: 1, method: s101_1, seq: 2, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: 
+[INFO] 2015-06-13 10:54:21 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 10:54:21 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:55:03 [agent] [./examples/agent.lua:92] command: 101, subcmd: 1, method: s101_1, seq: 3, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: 
+[INFO] 2015-06-13 10:55:03 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 10:55:03 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:55:33 [agent] [./examples/agent.lua:92] command: 101, subcmd: 1, method: s101_1, seq: 4, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: 
+[INFO] 2015-06-13 10:55:33 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 10:55:33 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:58:10 [agent] [./examples/agent.lua:92] command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: 
+[INFO] 2015-06-13 10:58:10 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 10:58:10 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 10:58:11 [agent] [./examples/agent.lua:92] command: 101, subcmd: 1, method: s101_1, seq: 2, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: 
+[INFO] 2015-06-13 10:58:11 [agent] [./examples/agent.lua:102] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 10:58:11 [agent] [./examples/agent.lua:116] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 11:21:06 [agent] [./examples/agent.lua:60] data: 0a 00 12 18 01 38 0d 30 01 28 0c 08 65 22 04 74 65 73 74 10 01 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 11:21:06 [agent] [./examples/agent.lua:62] csheadlen: 2560
+[INFO] 2015-06-13 11:21:57 [agent] [./examples/agent.lua:60] data: 0a 00 12 22 04 74 65 73 74 10 01 08 65 38 0d 30 01 18 01 28 0c 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 11:21:57 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 11:21:57 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 10 01 08 65 38 0d 30 01 18 01 28 0c 
+[INFO] 2015-06-13 11:22:32 [agent] [./examples/agent.lua:60] data: 0a 00 12 22 04 74 65 73 74 10 01 30 01 18 01 38 0d 28 0c 08 65 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 11:22:32 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 11:22:32 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 10 01 30 01 18 01 38 0d 28 0c 08 65 
+[INFO] 2015-06-13 11:22:32 [agent] [./examples/agent.lua:72] csbodylen: 25856
+[INFO] 2015-06-13 11:23:23 [agent] [./examples/agent.lua:60] data: 0a 00 12 22 04 74 65 73 74 10 01 38 0d 28 0c 18 01 08 65 30 01 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 11:23:23 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 11:23:23 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 10 01 38 0d 28 0c 18 01 08 65 30 01 
+[INFO] 2015-06-13 11:23:23 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 11:23:23 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 11:25:08 [agent] [./examples/agent.lua:60] data: 0a 00 12 22 04 74 65 73 74 10 01 38 0d 28 0c 18 02 08 65 30 01 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 11:25:08 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 11:25:08 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 10 01 38 0d 28 0c 18 02 08 65 30 01 
+[INFO] 2015-06-13 11:25:08 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 11:25:08 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 19:58:44 [gate] [lualib/snax/gateserver.lua:130] type: nil
+[INFO] 2015-06-13 19:58:45 [gate] [lualib/snax/gateserver.lua:130] type: open
+[INFO] 2015-06-13 19:59:19 [gate] [lualib/snax/gateserver.lua:130] type: open
+[INFO] 2015-06-13 20:00:18 [gate] [lualib/snax/gateserver.lua:130] type: nil
+[INFO] 2015-06-13 20:00:21 [gate] [lualib/snax/gateserver.lua:130] type: open
+[INFO] 2015-06-13 20:00:42 [gate] [lualib/snax/gateserver.lua:130] type: open
+[INFO] 2015-06-13 20:06:59 [gate] [lualib/snax/gateserver.lua:130] type: nil
+[INFO] 2015-06-13 20:07:04 [gate] [lualib/snax/gateserver.lua:130] type: open
+[INFO] 2015-06-13 20:10:34 [watchdog] [./yule/watchdog.lua:39] cmd: start, subcmd: table: 0x7f44aa9c4700
+[INFO] 2015-06-13 20:10:34 [gate] [lualib/snax/gateserver.lua:130] type: nil
+[INFO] 2015-06-13 20:10:35 [gate] [lualib/snax/gateserver.lua:130] type: open
+[INFO] 2015-06-13 20:10:35 [watchdog] [./yule/watchdog.lua:39] cmd: socket, subcmd: open
+[INFO] 2015-06-13 20:12:55 [watchdog] [./yule/watchdog.lua:39] cmd: start, subcmd: table: 0x7f514416c0c0
+[INFO] 2015-06-13 20:12:55 [gate] [lualib/snax/gateserver.lua:139] cmd: open
+[INFO] 2015-06-13 20:12:55 [gate] [lualib/snax/gateserver.lua:130] type: nil
+[INFO] 2015-06-13 20:12:57 [gate] [lualib/snax/gateserver.lua:130] type: open
+[INFO] 2015-06-13 20:12:57 [watchdog] [./yule/watchdog.lua:39] cmd: socket, subcmd: open
+[INFO] 2015-06-13 20:17:10 [watchdog] [./yule/watchdog.lua:39] cmd: start, subcmd: table: 0x7fe27d55eac0
+[INFO] 2015-06-13 20:17:10 [gate] [lualib/snax/gateserver.lua:139] cmd: open
+[INFO] 2015-06-13 20:17:10 [gate] [lualib/snax/gateserver.lua:130] type: nil
+[INFO] 2015-06-13 20:17:11 [gate] [lualib/snax/gateserver.lua:130] type: open
+[INFO] 2015-06-13 20:17:11 [watchdog] [./yule/watchdog.lua:39] cmd: socket, subcmd: open
+[INFO] 2015-06-13 20:18:24 [watchdog] [./yule/watchdog.lua:39] cmd: start, subcmd: table: 0x7f7f21e94d00
+[INFO] 2015-06-13 20:18:24 [gate] [lualib/snax/gateserver.lua:139] CMD cmd: open
+[INFO] 2015-06-13 20:18:24 [gate] [lualib/snax/gateserver.lua:130] MSG type: nil
+[INFO] 2015-06-13 20:18:25 [gate] [lualib/snax/gateserver.lua:130] MSG type: open
+[INFO] 2015-06-13 20:18:25 [watchdog] [./yule/watchdog.lua:39] cmd: socket, subcmd: open
+[INFO] 2015-06-13 20:27:23 [watchdog] [./yule/watchdog.lua:39] cmd: start, subcmd: table: 0x7fa2910d4800
+[INFO] 2015-06-13 20:27:23 [gate] [lualib/snax/gateserver.lua:139] CMD cmd: open
+[INFO] 2015-06-13 20:27:23 [gate] [lualib/snax/gateserver.lua:130] MSG type: nil
+[INFO] 2015-06-13 20:27:24 [gate] [lualib/snax/gateserver.lua:130] MSG type: open
+[INFO] 2015-06-13 20:27:24 [watchdog] [./yule/watchdog.lua:39] cmd: socket, subcmd: open
+[INFO] 2015-06-13 20:43:07 [watchdog] [./yule/watchdog.lua:39] cmd: start, subcmd: table: 0x7f2501d9b600
+[INFO] 2015-06-13 20:43:07 [gate] [lualib/snax/gateserver.lua:139] CMD cmd: open
+[INFO] 2015-06-13 20:43:07 [gate] [lualib/snax/gateserver.lua:130] MSG type: nil
+[INFO] 2015-06-13 20:43:08 [gate] [lualib/snax/gateserver.lua:130] MSG type: open
+[INFO] 2015-06-13 20:43:08 [watchdog] [./yule/watchdog.lua:39] cmd: socket, subcmd: open
+[INFO] 2015-06-13 20:58:03 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 20:58:03 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 20:58:04 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 20:58:53 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 20:58:53 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 20:58:53 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 20:58:53 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 20:58:53 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 20:58:54 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 20:59:18 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 20:59:18 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 20:59:19 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 20:59:19 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 20:59:19 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 20:59:20 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 20:59:34 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:00:24 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 21:00:24 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:00:27 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 21:00:27 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 21:00:27 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:00:36 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:00:52 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:01:20 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 21:01:20 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:01:21 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 21:01:21 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 21:01:21 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:01:21 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:02:40 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:03:25 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 21:03:25 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:03:44 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 21:03:44 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 21:03:44 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:03:45 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:05:40 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 21:05:40 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:05:41 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 21:05:41 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 21:05:41 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:05:42 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:05:42 [agent] [./examples/agent.lua:60] data: 0a 00 12 30 01 38 0d 22 04 74 65 73 74 08 65 18 01 10 01 28 0c 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 21:05:42 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 21:05:42 [agent] [./examples/agent.lua:64] cshead: 30 01 38 0d 22 04 74 65 73 74 08 65 18 01 10 01 28 0c 
+[INFO] 2015-06-13 21:05:42 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 21:05:42 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 21:06:31 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 21:06:31 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:06:31 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 21:06:31 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 21:06:31 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:06:32 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:06:32 [agent] [./examples/agent.lua:60] data: 0a 00 12 38 0d 08 65 28 0c 22 04 74 65 73 74 18 01 10 01 30 01 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 21:06:32 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 21:06:32 [agent] [./examples/agent.lua:64] cshead: 38 0d 08 65 28 0c 22 04 74 65 73 74 18 01 10 01 30 01 
+[INFO] 2015-06-13 21:06:32 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 21:06:32 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[DEBUG] 2015-06-13 21:06:32 [agent] [./examples/agent.lua:124] type
+[INFO] 2015-06-13 21:06:59 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 21:06:59 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:07:00 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 21:07:00 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 21:07:00 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:07:01 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:07:01 [agent] [./examples/agent.lua:60] data: 0a 00 12 10 01 38 0d 30 01 28 0c 22 04 74 65 73 74 18 01 08 65 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 21:07:01 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 21:07:01 [agent] [./examples/agent.lua:64] cshead: 10 01 38 0d 30 01 28 0c 22 04 74 65 73 74 18 01 08 65 
+[INFO] 2015-06-13 21:07:01 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 21:07:01 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[DEBUG] 2015-06-13 21:07:01 [agent] [./examples/agent.lua:124] type: 80("teste
+[INFO] 2015-06-13 21:07:19 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 21:07:19 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:07:20 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 21:07:20 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 21:07:20 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:07:21 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:07:21 [agent] [./examples/agent.lua:60] data: 0a 00 12 22 04 74 65 73 74 10 01 18 01 38 0d 28 0c 08 65 30 01 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 21:07:21 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 21:07:21 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 10 01 18 01 38 0d 28 0c 08 65 30 01 
+[INFO] 2015-06-13 21:07:21 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 21:07:21 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[DEBUG] 2015-06-13 21:07:21 [agent] [./examples/agent.lua:124] type: "test8(e0
+[INFO] 2015-06-13 21:10:20 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:10:20 [agent] [./examples/agent.lua:60] data: 0a 00 12 22 04 74 65 73 74 10 01 18 02 38 0d 28 0c 08 65 30 01 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 21:10:20 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 21:10:20 [agent] [./examples/agent.lua:64] cshead: 22 04 74 65 73 74 10 01 18 02 38 0d 28 0c 08 65 30 01 
+[INFO] 2015-06-13 21:10:20 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 21:10:20 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[DEBUG] 2015-06-13 21:10:20 [agent] [./examples/agent.lua:124] type: "test8(e0
+[INFO] 2015-06-13 21:11:19 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 21:11:19 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:11:20 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 21:11:20 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 21:11:20 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:11:21 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:11:21 [agent] [./examples/agent.lua:60] data: 0a 00 12 08 65 30 01 10 01 28 0c 22 04 74 65 73 74 38 0d 18 01 00 06 0a 04 74 65 73 74 03 
+[INFO] 2015-06-13 21:11:21 [agent] [./examples/agent.lua:62] csheadlen: 18
+[INFO] 2015-06-13 21:11:21 [agent] [./examples/agent.lua:64] cshead: 08 65 30 01 10 01 28 0c 22 04 74 65 73 74 38 0d 18 01 
+[INFO] 2015-06-13 21:11:21 [agent] [./examples/agent.lua:72] csbodylen: 6
+[INFO] 2015-06-13 21:11:21 [agent] [./examples/agent.lua:74] csbody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 21:11:21 [agent] [./examples/agent.lua:88] command: 101, subcmd: 1, method: s101_1, seq: 1, uuid: test, client_type: 12, head_flag: 1, client_ver: 13, signature: 
+[INFO] 2015-06-13 21:11:21 [agent] [./examples/agent.lua:98] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 21:11:21 [agent] [./examples/agent.lua:112] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 21:35:12 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 21:35:12 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:35:19 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 21:35:19 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 21:35:19 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 21:35:22 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:35:22 [agent] [./yule/agent.lua:48] bytehead: 38 c8 01 08 65 10 01 40 e9 01 18 01 22 04 74 65 73 74 30 80 08 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 21:35:22 [agent] [./yule/agent.lua:61] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 21:35:22 [agent] [./yule/agent.lua:75] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 21:35:31 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 21:35:31 [agent] [./yule/agent.lua:48] bytehead: 38 c8 01 08 65 10 01 40 e9 01 18 02 22 04 74 65 73 74 30 80 08 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 21:35:31 [agent] [./yule/agent.lua:61] command: 101, subcmd: 1, module profile
+[DEBUG] 2015-06-13 21:35:31 [agent] [./yule/agent.lua:75] process s101_1 time used 0.000000 ms
+[INFO] 2015-06-13 22:21:46 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 22:21:46 [agent] [./yule/agent.lua:48] bytehead: 38 c8 01 08 65 10 01 40 e9 01 18 03 22 04 74 65 73 74 30 80 08 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 22:21:46 [agent] [./yule/agent.lua:61] command: 101, subcmd: 1, module profile
+[INFO] 2015-06-13 22:22:26 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: open
+[INFO] 2015-06-13 22:22:26 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 22:22:27 [gate] [lualib/snax/gateserver.lua:125] MSG type: open
+[INFO] 2015-06-13 22:22:27 [gate] [lualib/snax/gateserver.lua:134] CMD cmd: forward
+[INFO] 2015-06-13 22:22:27 [gate] [lualib/snax/gateserver.lua:125] MSG type: nil
+[INFO] 2015-06-13 22:22:28 [gate] [lualib/snax/gateserver.lua:125] MSG type: data
+[INFO] 2015-06-13 22:22:28 [agent] [./yule/agent.lua:48] bytehead: 18 01 10 01 40 e9 01 38 c8 01 22 04 74 65 73 74 30 80 08 08 65 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 22:22:28 [agent] [./yule/agent.lua:61] command: 101, subcmd: 1, module profile
+[INFO] 2015-06-13 22:22:28 [profile] [./yule/profile.lua:15] table: 0x7f36a4843640
+[DEBUG] 2015-06-13 22:22:28 [agent] [./yule/agent.lua:75] process s101_1 time used 0.100000 ms
+[INFO] 2015-06-13 22:23:06 [agent] [./yule/agent.lua:48] bytehead: 22 04 74 65 73 74 38 c8 01 40 e9 01 10 01 18 01 30 80 08 08 65 , bytebody: 0a 04 74 65 73 74 
+[INFO] 2015-06-13 22:23:06 [agent] [./yule/agent.lua:61] command: 101, subcmd: 1, module profile
+[INFO] 2015-06-13 22:23:06 [profile] [./yule/profile.lua:15] table: 0x7fc858fac800
+[DEBUG] 2015-06-13 22:23:06 [agent] [./yule/agent.lua:75] process s101_1 time used 0.000000 ms

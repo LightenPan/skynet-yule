@@ -1,0 +1,13 @@
+package app_protos;
+
+message CSHead
+{
+	optional uint32 command     = 1 ; //大命令
+	optional uint32 subcmd      = 2 ; //子命令
+	optional uint32 seq    		= 3 ; //客户端seq
+	optional bytes  uuid     	= 4 ; //用户身份id，使用Session_ID填充
+	optional uint32 client_type = 5 ; //终端类型
+	optional uint32 head_flag   = 6 ; //包头标记
+	optional uint32 client_ver  = 7 ; //客户端版本号
+	optional bytes  signature	= 8 ; //用户签名
+}
